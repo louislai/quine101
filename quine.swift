@@ -2,12 +2,12 @@ let unicodes = [47,47,32,84,104,101,32,100,97,116,97,32,97,98,111,118,101,32,105
 // The data above is the textual representation of everything starting from this comment
 print("let unicodes = [", terminator: "")
 for i in 0..<unicodes.count {
-    print("\(unicodes[i])", terminator: "")
-    if i < unicodes.count-1 {
-        print(",", terminator: "")
-    }
+	print("\(unicodes[i])", terminator: "")
+	if i < unicodes.count-1 {
+		print(",", terminator: "")
+	}
 }
 print("]")
 for i in 0..<unicodes.count {
-    print(String(UnicodeScalar(unicodes[i])), terminator: "")
+	print(String(UnicodeScalar(unicodes[i])), terminator: "")
 }

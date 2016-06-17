@@ -67,4 +67,3 @@ print((data.map({"@\"\(escape($0))\""})+["NULL"]).joinWithSeparator(",\n"))
 for i in 30..<47 {
  print(data[i])
 }
-

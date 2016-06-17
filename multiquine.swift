@@ -120,4 +120,3 @@ if Process.arguments.count > 1 {
 } else {
    printSwift()
 }
-
